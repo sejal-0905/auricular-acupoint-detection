@@ -1,0 +1,14 @@
+# Patient / subject data - never upload
+data/images/
+data/labels/
+data/labelme_json/
+
+# Training outputs and downloaded weights
+scripts/runs/
+models/
+*.pt
+
+# Python clutter
+__pycache__/
+*.pyc
+test_prediction.jpg
